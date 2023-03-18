@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.heading {
+  font-weight: bold;
+  background: linear-gradient(139.21deg, #F12711 -59.95%, #F5AF19 129.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.heading span {
+  font-size: 10px;
+  font-style: italic;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subheadline {
+  color: #fff;
+  font-weight: 300;
+  font-size: smaller;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn-submit {
+  width: 100%;
+  background: linear-gradient(106.9deg, #F5AF19 36.3%, #F12711 152.9%);
+  border-radius: 10px;
+  border: none;
+}
+
+.example-text {
+  font-weight: 400;
+  font-size: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.hasil-title {
+  color: #F5AF19;
+}
+
+.hasil-text {
+  color: #fff;
+}
+
+.copy-img {
+  height: 14px;
+  color: #fff;
+}
+
+.copyright {
+  font-size: 10px;
+  color: #fff;
+  font-weight: 300;
+}
+
+.loader-container {
+  max-width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.loader-container .animasi {
+  max-width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loader-container p {
+  color: #fff;
 }
